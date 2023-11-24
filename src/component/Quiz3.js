@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../Quiz.css'; // Import your CSS file
 
 const Quiz3 = () => {
-  const question = { question: "What is the recommended distance between portable heaters and flammable material (in feet)", answer: "10 feet" };
+  const question = { question: "What is the recommended distance between portable heaters and flammable material (in feet)", answer: "10" };
   const nextLocation = "عرب🌊🦁";
 
   const [userAnswer, setUserAnswer] = useState('');
