@@ -4,7 +4,7 @@ import one from '../assets/1.jpeg';
 
 const Quiz6 = () => {
   const question = { question: "What type of fire extinguisher is suitable for electrical fires", answer: "carbon dioxide" };
-  const nextLocation = <img src={one} alt='sda' style={{ height: '300px', width: '500px' }} />;
+  const nextLocation = <img src={one} alt='sda' style={{ maxWidth: '100%', height: 'auto' }} />;
 
   const [userAnswer, setUserAnswer] = useState('');
   const [showMessage, setShowMessage] = useState(false);
@@ -30,6 +30,7 @@ const Quiz6 = () => {
 
   return (
     <div className="quiz-container">
+      <h1>5</h1>
       <div>
         <h3 className="question-heading">Question 6</h3>
         <p className="question-text">{question.question}</p>

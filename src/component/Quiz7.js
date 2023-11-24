@@ -3,9 +3,8 @@ import '../Quiz.css'; // Import your CSS file
 import two from '../assets/2.jpeg';
 
 const Quiz7 = () => {
-  const question = { question: "Voltage at or above which value is considered hazardous (in volts)", answer: "30" };
-  const nextLocation = <img src={two} alt='sda' style={{ height: '300px', width: '500px' }} />;
-
+  const question = { question: "Voltage at or above how much value is considered Hazardous (in volts)", answer: "30" };
+  const nextLocation = <img src={two} alt='sda' style={{ maxWidth: '100%', height: 'auto' }} />;
 
   const [userAnswer, setUserAnswer] = useState('');
   const [showMessage, setShowMessage] = useState(false);
@@ -31,6 +30,7 @@ const Quiz7 = () => {
 
   return (
     <div className="quiz-container">
+      <h1>7</h1>
       <div>
         <h3 className="question-heading">Question 7</h3>
         <p className="question-text">{question.question}</p>

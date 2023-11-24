@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import '../Quiz.css'; // Import your CSS file
 
 const Quiz3 = () => {
-  const question = { question: "What is the recommended distance between portable heaters and flammable material (in feet)", answer: "10 feet" };
-  const nextLocation = "عرب🌊🦁";
+  const question = { question: "What is the recommended distance between portable heaters and flammable material (in feet)", answer: "10" };
+  const nextLocation = "🦁🌊عرب";
 
   const [userAnswer, setUserAnswer] = useState('');
   const [showMessage, setShowMessage] = useState(false);
@@ -30,6 +30,7 @@ const Quiz3 = () => {
   return (
     <div className="quiz-container">
       <div>
+        <h1>5</h1>
         <h3 className="question-heading">Question 3</h3>
         <p className="question-text">{question.question}</p>
         <input

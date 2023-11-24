@@ -4,8 +4,7 @@ import three from '../assets/3.jpeg';
 
 const Quiz8 = () => {
   const question = { question: "The acronym for the proper use of a fire extinguisher is", answer: "PASS" };
-  const nextLocation = <img src={three} alt='sdadasd' style={{ height: '300px', width: '500px' }} />;
-
+  const nextLocation = <img src={three} alt='sdadasd' style={{ maxWidth: '100%', height: 'auto' }} />;
 
   const [userAnswer, setUserAnswer] = useState('');
   const [showMessage, setShowMessage] = useState(false);
@@ -31,6 +30,7 @@ const Quiz8 = () => {
 
   return (
     <div className="quiz-container">
+      <h1>9</h1>
       <div>
         <h3 className="question-heading">Question 8</h3>
         <p className="question-text">{question.question}</p>

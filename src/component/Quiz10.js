@@ -4,8 +4,7 @@ import five from '../assets/5.jpeg';
 
 const Quiz10 = () => {
   const question = { question: "Ionization fires are more responsive to what fires", answer: "Flaming" };
-  const nextLocation = <img src={five} alt='sdsda' style={{ height: '300px', width: '500px' }} />;
-
+  const nextLocation = <img src={five} alt='sdsda' style={{ maxWidth: '100%', height: 'auto' }} />;
 
   const [userAnswer, setUserAnswer] = useState('');
   const [showMessage, setShowMessage] = useState(false);
@@ -31,6 +30,7 @@ const Quiz10 = () => {
 
   return (
     <div className="quiz-container">
+      <h1>9</h1>
       <div>
         <h3 className="question-heading">Question 10</h3>
         <p className="question-text">{question.question}</p>

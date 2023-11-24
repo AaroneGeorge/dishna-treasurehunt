@@ -30,6 +30,7 @@ const Quiz5 = () => {
   return (
     <div className="quiz-container">
       <div>
+      <h1>7</h1>
         <h3 className="question-heading">Question 5</h3>
         <p className="question-text">{question.question}</p>
         <input

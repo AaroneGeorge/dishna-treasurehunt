@@ -4,8 +4,7 @@ import nine from '../assets/4.jpeg';
 
 const Quiz9 = () => {
   const question = { question: "Photoelectric smoke detectors are more sensitive to what fires", answer: "smoldering" };
-  const nextLocation = <img src={nine} alt='sdacasd' style={{ height: '300px', width: '500px' }} />;
-
+  const nextLocation = <img src={nine} alt='sdacasd' style={{ maxWidth: '100%', height: 'auto' }} />;
 
   const [userAnswer, setUserAnswer] = useState('');
   const [showMessage, setShowMessage] = useState(false);
@@ -31,6 +30,7 @@ const Quiz9 = () => {
 
   return (
     <div className="quiz-container">
+      <h1>9</h1>
       <div>
         <h3 className="question-heading">Question 9</h3>
         <p className="question-text">{question.question}</p>

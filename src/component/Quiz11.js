@@ -4,8 +4,7 @@ import six from '../assets/6.jpeg';
 
 const Quiz11 = () => {
   const question = { question: "How often should escape routes be checked", answer: "Daily" };
-  const nextLocation = <img src={six} alt='sda' style={{ height: '300px', width: '500px' }} />;
-
+  const nextLocation = <img src={six} alt='sda' style={{ maxWidth: '100%', height: 'auto' }} />;
 
   const [userAnswer, setUserAnswer] = useState('');
   const [showMessage, setShowMessage] = useState(false);
@@ -31,6 +30,7 @@ const Quiz11 = () => {
 
   return (
     <div className="quiz-container">
+      <h1>9</h1>
       <div>
         <h3 className="question-heading">Question 11</h3>
         <p className="question-text">{question.question}</p>

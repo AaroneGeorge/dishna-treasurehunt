@@ -35,6 +35,7 @@ const Quiz2 = () => {
   return (
     <div className="quiz-container">
       <div>
+        <h1>5</h1>
         <h3 className="question-heading">Question 2</h3>
         <p className="question-text">{question.question}</p>
         <input
