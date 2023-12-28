@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+check out ALL THE LINKS:
+1.
+https://dishna-treasurehunt.vercel.app/
+2.
+https://dishna-treasurehunt.vercel.app/12133
+3.
+https://dishna-treasurehunt.vercel.app/eweqwe
+4.
+https://dishna-treasurehunt.vercel.app/sdasda
+5.
+https://dishna-treasurehunt.vercel.app/weqweqw
+6.
+https://dishna-treasurehunt.vercel.app/cxczs
+7.
+https://dishna-treasurehunt.vercel.app/eeqwe
+8.
+https://dishna-treasurehunt.vercel.app/cxzcz
+9.
+https://dishna-treasurehunt.vercel.app/rqwrqws
+10.
+https://dishna-treasurehunt.vercel.app/dasfa
+11.
+https://dishna-treasurehunt.vercel.app/xczdas
+12.
+https://dishna-treasurehunt.vercel.app/eqwdcx
+LAST 3
+https://dishna-treasurehunt.vercel.app/suxes
+https://dishna-treasurehunt.vercel.app/foil
+https://dishna-treasurehunt.vercel.app/clew
+
+## NOTE:  THE EVENT HAS FINISHED
